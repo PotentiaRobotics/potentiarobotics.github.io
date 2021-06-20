@@ -2,6 +2,20 @@
  
 Source for TJHRC's website built with Sanity and React.
 
+#### Table of contents
+
+- [Setup](#Setup)
+    - [Troubleshooting setup](#troubleshooting-setup)
+- [Running](#running)
+- [Developing](#developing)
+    - [Making changes](#making-changes)
+    - [Pushing changes](#pushing-your-changes)
+- [Available Scripts](#available-scripts)
+    - [`yarn start`](#yarn-start)
+    - [`yarn test`](#yarn-test)
+    - [`yarn build`](#yarn-build)
+    - [`yarn eject`](#yarn-eject)
+
 # Setup
 When setting this project up for the first time, first download Node.js if you haven't already from here: https://nodejs.org/en/download/, and install yarn:
 
@@ -12,7 +26,13 @@ npm install -g yarn
 Then clone the project and run:
 ```
 cd website
+npm install
 yarn install
+```
+### Troubleshooting setup
+If you are getting engine errors when you run ```yarn install``` a simple fix for that is:
+```
+yarn install --ignore-engines
 ```
 
 # Running
@@ -20,10 +40,23 @@ After you've set up the project for the first time, simply run:
 ```
 yarn start
 ```
-And you should see the website load and show up in your browser, at the address https://http://localhost:3000/. 
+And you should see the website load and show up in your browser, at the address ```https://http://localhost:3000/```. 
 
-# Creating new branches
-Make sure to replace 
+# Developing
+There are some things to remember when developing for the website. The first thing is to never push changes to the master branch and instead you should always pull request the changes.
+
+### Making changes
+These are the steps to remember when adding features and changing the website.
+Here are the steps: 
+1. Find an issue from ```https://github.com/PotentiaRobotics/website/issues``` and comment if you want to work on it. Later someone will assign you to the issue, so everyone else knows not to work on it.
+2. Once you have been assigned to the issue you can start working on it.
+3. In your local project make sure to create a different branch pertinent to the issue. Below is an example of creating a branch for ```https://github.com/PotentiaRobotics/website/issues/4```.
+```
+git checkout -b fix-documentation
+git push --set-upstream origin fix-documentation
+```
+4. Make sure to also replace
+
 ```
 "start": "serve -s build/"
 ```
@@ -34,25 +67,30 @@ Make sure to replace
 "test": "react-scripts test",
 "eject": "react-scripts eject"
 ``` 
-when creating a branch. This in the scripts section of package.json
+in `package.json`. This is the only way to open up localhost and have it reload with your changes.
 
-# Committing to master
-Run ```yarn run build``` in the console
+Once you are done with your changes you can move onto [the next step](#pushing-your-changes).
 
-Also replace 
+### Pushing your changes
+Here are the steps to push your changes:
+1. Make sure to change
 ```
 "start": "react-scripts start",
 "build": "react-scripts build",
 "test": "react-scripts test",
 "eject": "react-scripts eject"
-``` 
-with 
+```
+ with this one line:     
 ```
 "start": "serve -s build/"
 ``` 
-This is in the scripts section of package.json
+in `package.json` or else your pull request will not be accepted.
 
-## Available Scripts
+2. Now you need to create a pull request to the master branch so your changes get merged. Go to ```https://github.com/PotentiaRobotics/website/pulls``` and create a new pull request.
+2. Have your `base` as master and `compare` to the relevant branch. In the example's case it would be `fix-documentation`.
+3. Now click the ```Compare & pull request``` button, title it something relevant to the issue you are fixing, and lastly you do not need to include a description, but you must include ```Closes #<issue number>```. In the example's case it would be ```Closes #4``` (this will automatically close the pertinent issue).
+
+# Available Scripts
 
 In the project directory, you can run:
 
