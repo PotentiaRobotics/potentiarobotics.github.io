@@ -51,15 +51,7 @@ Below is the color palette we are using
 
 https://coolors.co/3d5a80-98c1d9-e0fbfc-ee6c4d-293241
 ##
-<span style="color:#3D5A80">Here is some sample text.</span> The hex value is #3D5A80.
-##
-<span style="color:#98C1D9">Here is some sample text.</span> The hex value is #98C1D9.
-##
-<span style="color:#E0FBFC">Here is some sample text.</span> The hex value is #E0FBFC.
-##
-<span style="color:#EE6C4D">Here is some sample text.</span> The hex value is #EE6C4D.
-##
-<span style="color:#293241">Here is some sample text.</span> The hex value is #293241.
+The hex value are #3D5A80, #98C1D9, #E0FBFC, #EE6C4D, and #293241.
 
 ### Making changes
 These are the steps to remember when adding features and changing the website.
