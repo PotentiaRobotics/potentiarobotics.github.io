@@ -8,6 +8,7 @@ Source for TJHRC's website built with Sanity and React.
     - [Troubleshooting setup](#troubleshooting-setup)
 - [Running](#running)
 - [Developing](#developing)
+    - [Color palette](#color-palette)
     - [Making changes](#making-changes)
     - [Pushing changes](#pushing-your-changes)
 - [Available Scripts](#available-scripts)
@@ -44,6 +45,21 @@ And you should see the website load and show up in your browser, at the address 
 
 # Developing
 There are some things to remember when developing for the website. The first thing is to never push changes to the master branch and instead you should always pull request the changes.
+
+### Color palette
+Below is the color palette we are using
+
+https://coolors.co/3d5a80-98c1d9-e0fbfc-ee6c4d-293241
+##
+<span style="color:#3D5A80">Here is some sample text.</span> The hex value is #3D5A80.
+##
+<span style="color:#98C1D9">Here is some sample text.</span> The hex value is #98C1D9.
+##
+<span style="color:#E0FBFC">Here is some sample text.</span> The hex value is #E0FBFC.
+##
+<span style="color:#EE6C4D">Here is some sample text.</span> The hex value is #EE6C4D.
+##
+<span style="color:#293241">Here is some sample text.</span> The hex value is #293241.
 
 ### Making changes
 These are the steps to remember when adding features and changing the website.
