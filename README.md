@@ -4,7 +4,7 @@ Source for [Potentia Robotics' website](https://www.potentiarobotics.com/) built
 
 #### Table of contents
 
-- [Setup](#Setup)
+- [Setup](#setup)
     - [Troubleshooting setup](#troubleshooting-setup)
 - [Running](#running)
 - [Developing](#developing)
