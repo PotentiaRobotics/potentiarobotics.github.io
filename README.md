@@ -51,7 +51,7 @@ Below is the color palette we are using
 
 https://coolors.co/3d5a80-98c1d9-e0fbfc-ee6c4d-293241
 ##
-The hex value are #3D5A80, #98C1D9, #E0FBFC, #EE6C4D, and #293241.
+The hex values are #3D5A80, #98C1D9, #E0FBFC, #EE6C4D, and #293241.
 
 ### Making changes
 These are the steps to remember when adding features and changing the website.
@@ -95,9 +95,10 @@ Here are the steps to push your changes:
 ``` 
 in `package.json` or else your pull request will not be accepted.
 
-3. Now you need to create a pull request to the master branch so your changes get merged. Go to ```https://github.com/PotentiaRobotics/website/pulls``` and create a new pull request.
-4. Have your `base` as master and `compare` to the relevant branch. In the example's case it would be `fix-documentation`.
-5. Now click the ```Compare & pull request``` button, title it something relevant to the issue you are fixing, and lastly you do not need to include a description, but you must include ```Closes #<issue number>```. In the example's case it would be ```Closes #4``` (this will automatically close the pertinent issue).
+3. Delete the `package-lock.json` file if you have one.
+4. Now you need to create a pull request to the master branch so your changes get merged. Go to ```https://github.com/PotentiaRobotics/website/pulls``` and create a new pull request.
+5. Have your `base` as master and `compare` to the relevant branch. In the example's case it would be `fix-documentation`.
+6. Now click the ```Compare & pull request``` button, title it something relevant to the issue you are fixing, and lastly you do not need to include a description, but you must include ```Closes #<issue number>```. In the example's case it would be ```Closes #4``` (this will automatically close the pertinent issue).
 
 # Available Scripts
 
