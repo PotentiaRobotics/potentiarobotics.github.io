@@ -41,10 +41,10 @@ After you've set up the project for the first time, simply run:
 ```
 yarn start
 ```
-And you should see the website load and show up in your browser, at the address ```https://http://localhost:3000/```. 
+And you should see the website load and show up in your browser, at the address ```http://localhost:3000/```. 
 
 # Developing
-There are some things to remember when developing for the website. The first thing is to never push changes to the master branch and instead you should always pull request the changes.
+There are some things to remember when developing for the website. First: **never push changes directly to the master branch.** This is automatically disallowed for non-owners, but if you try to do this, you will have to port all of your changes over to a different branch, which is a pain that can be easily avoided. You should always start from a new branch, create the changes on that branch, and create a pull request from that branch into master.
 
 ### Color palette
 Below is the color palette we are using
