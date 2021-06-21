@@ -1,6 +1,6 @@
 # website
  
-Source for TJHRC's website built with Sanity and React.
+Source for [Potentia Robotics' website](https://www.potentiarobotics.com/) built with React.
 
 #### Table of contents
 
