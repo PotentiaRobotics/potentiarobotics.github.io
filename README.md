@@ -81,7 +81,8 @@ Once you are done with your changes you can move onto [the next step](#pushing-y
 
 ### Pushing your changes
 Here are the steps to push your changes:
-1. Make sure to change
+1. Run the command `yarn run build`.
+2. Make sure to change
 ```
 "start": "react-scripts start",
 "build": "react-scripts build",
@@ -94,9 +95,9 @@ Here are the steps to push your changes:
 ``` 
 in `package.json` or else your pull request will not be accepted.
 
-2. Now you need to create a pull request to the master branch so your changes get merged. Go to ```https://github.com/PotentiaRobotics/website/pulls``` and create a new pull request.
-2. Have your `base` as master and `compare` to the relevant branch. In the example's case it would be `fix-documentation`.
-3. Now click the ```Compare & pull request``` button, title it something relevant to the issue you are fixing, and lastly you do not need to include a description, but you must include ```Closes #<issue number>```. In the example's case it would be ```Closes #4``` (this will automatically close the pertinent issue).
+3. Now you need to create a pull request to the master branch so your changes get merged. Go to ```https://github.com/PotentiaRobotics/website/pulls``` and create a new pull request.
+4. Have your `base` as master and `compare` to the relevant branch. In the example's case it would be `fix-documentation`.
+5. Now click the ```Compare & pull request``` button, title it something relevant to the issue you are fixing, and lastly you do not need to include a description, but you must include ```Closes #<issue number>```. In the example's case it would be ```Closes #4``` (this will automatically close the pertinent issue).
 
 # Available Scripts
 
