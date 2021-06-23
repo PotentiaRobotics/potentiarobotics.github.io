@@ -1,6 +1,6 @@
-import styled, { css } from 'styled-components';
-import './Contact.scss';
-import { MdClose } from 'react-icons/md';
+import styled, { css } from 'styled-components'
+import './Contact.scss'
+import { MdClose } from 'react-icons/md'
 
 const sharedStyles = css`
   background-color: #ccc;
@@ -8,7 +8,7 @@ const sharedStyles = css`
   border: 1px solid #ddd;
   margin: 10px 0 20px 0;
   box-sizing: border-box;
-`;
+`
 
 const StyledFormWrapper = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ const StyledFormWrapper = styled.div`
   position:relative;
   margin-top: 4vw;
   padding: 0 2%;
-`;
+`
 
 const StyledForm = styled.form`
   width: 70%;
@@ -29,9 +29,9 @@ const StyledForm = styled.form`
   @media only screen and (max-width: 800px) {
     width: 90%
   }
-`;
+`
 //  height:100%;
-  // border-radius: 10px; (if we want a round form)
+// border-radius: 10px; (if we want a round form)
 
 const StyledInput = styled.input`
   display: block;
@@ -39,7 +39,7 @@ const StyledInput = styled.input`
   rows: 1;
   padding 1.5%;
   ${sharedStyles}
-`;
+`
 
 const StyledTextAreaSubject = styled.textarea`
   background-color: #98c1d9;
@@ -51,7 +51,7 @@ const StyledTextAreaSubject = styled.textarea`
   spellcheck:true;
   resize: vertical;
   ${sharedStyles}
-`;
+`
 
 const StyledTextArea = styled.textarea`
   background-color: #98c1d9;
@@ -63,7 +63,7 @@ const StyledTextArea = styled.textarea`
   overflow: auto;
   spellcheck:true;
   ${sharedStyles}
-`;
+`
 const StyledButton = styled.button`
   display: block;
   background-color: #ee6c4d;
@@ -81,13 +81,13 @@ const StyledButton = styled.button`
 		cursor: pointer;
     opacity:0.7;
 	}
-`;
+`
 
 const StyledError = styled.div`
   color: red;
   font-weight: 800;
   margin: 0 0 5% 0;
-`;
+`
 
 const Background = styled.div`
   width: 100%;
@@ -97,7 +97,7 @@ const Background = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-`;
+`
 
 const ModalWrapper = styled.div`
   overflow: auto;
@@ -151,7 +151,7 @@ const ModalWrapper = styled.div`
       width: 100%;
     }
   }
-`;
+`
 const ModalContent = styled.div`
   align-items: center;
   line-height: 1.8;
@@ -192,7 +192,7 @@ const ModalContent = styled.div`
     width: 80%;
   } 
   overflow-y: scroll;
-`;
+`
 
 const CloseModalButton = styled(MdClose)`
   cursor: pointer;
@@ -207,33 +207,33 @@ const CloseModalButton = styled(MdClose)`
   @media only screen and (max-width: 500px) {
     top: 3%;
   }
-`;
+`
 
 const Modal = ({ handleClose, show, children }) => {
-  const showHideClassName = show ? "modal display-block" : "modal display-none";
+  const showHideClassName = show ? 'modal display-block' : 'modal display-none'
 
   return (
     <div className={showHideClassName}>
       <Background>
-      <ModalWrapper>
-        <ModalContent>{children}</ModalContent>
-        <CloseModalButton type="button" onClick={handleClose}></CloseModalButton>
-      </ModalWrapper>
-     </Background>
+        <ModalWrapper>
+          <ModalContent>{children}</ModalContent>
+          <CloseModalButton type='button' onClick={handleClose} />
+        </ModalWrapper>
+      </Background>
     </div>
-  );
-};
+  )
+}
 
-export default StyledFormWrapper;
+export default StyledFormWrapper
 
 export {
-    StyledFormWrapper,
-    StyledForm,
-    sharedStyles,
-    StyledInput,
-    StyledTextArea,
-    StyledButton,
-    StyledError,
-    StyledTextAreaSubject,
-    Modal
-};
+  StyledFormWrapper,
+  StyledForm,
+  sharedStyles,
+  StyledInput,
+  StyledTextArea,
+  StyledButton,
+  StyledError,
+  StyledTextAreaSubject,
+  Modal
+}

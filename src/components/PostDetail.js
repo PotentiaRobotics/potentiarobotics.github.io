@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react'
 
-export default function PostDetail(props) {
-  return <div>Post Detail</div>;
+export default function PostDetail (props) {
+  return <div>Post Detail</div>
 }
