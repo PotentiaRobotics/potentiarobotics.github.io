@@ -100,7 +100,7 @@ in `package.json` or else your pull request will not be accepted.
 5. Have your `base` as master and `compare` to the relevant branch. In the example's case it would be `fix-documentation`.
 6. Now click the ```Compare & pull request``` button, title it something relevant to the issue you are fixing, and lastly you do not need to include a description, but you must include ```Closes #<issue number>```. In the example's case it would be ```Closes #4``` (this will automatically close the pertinent issue).
 
-You will notice that there are tests being run on the code you submitted. These tests check for security, accesibility issues, build issues, and code issues. Some of the issues are analyzed by deepsource.io. If you want to see the issues pleam DM me.
+You will notice that there are tests being run on the code you submitted. These tests check for security issues, accesibility issues, build issues, and code issues. Some of the issues are analyzed by deepsource.io and not easily accesible through github; if you want to see the issues pleam DM me.
 
 # Available Scripts
 
