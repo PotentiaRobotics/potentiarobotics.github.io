@@ -1,4 +1,8 @@
 # website
+
+[![CodeQL](https://github.com/PotentiaRobotics/website/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)](https://github.com/PotentiaRobotics/website/actions/workflows/codeql-analysis.yml)
+[![Node.js CI](https://github.com/PotentiaRobotics/website/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/PotentiaRobotics/website/actions/workflows/node.js.yml)
+[![DeepSource](https://deepsource.io/gh/PotentiaRobotics/website.svg/?label=active+issues&show_trend=true&token=f88Se7pZUXESLgBqj0fpyzWs)](https://deepsource.io/gh/PotentiaRobotics/website/?ref=repository-badge)
  
 Source for [Potentia Robotics' website](https://www.potentiarobotics.com/) built with React.
 
