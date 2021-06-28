@@ -70,6 +70,7 @@ git push --set-upstream origin fix-documentation
 4. Make sure to also replace
 
 ```
+"build": "CI=false && react-scripts build",
 "start": "serve -s build/"
 ```
  with these four lines:     
@@ -95,6 +96,7 @@ Here are the steps to push your changes:
 ```
  with this one line:     
 ```
+"build": "CI=false && react-scripts build",
 "start": "serve -s build/"
 ``` 
 in `package.json` or else your pull request will not be accepted.
