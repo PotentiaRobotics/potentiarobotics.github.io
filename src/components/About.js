@@ -10,7 +10,7 @@ import ram from './assets/img/Ram.PNG'
 import sai from './assets/img/Sai.PNG'
 import kedar from './assets/img/Kedar.PNG'
 import icon from './assets/img/aboutlogo.PNG'
-
+import raghav from './assets/img/Raghav.PNG'
 import classnames from 'classnames'
 
 import GroupPhoto from './assets/img/team_picture.png'
@@ -36,6 +36,7 @@ const aileenBio = 'Hey! I’m Aileen Zhao, part of the engineering team for Pote
 const mayukaBio = 'Hi! I’m Mayuka, and I’m an Engineer at Potentia Robotics. I work with the rest of the Engineering Team to design our robot Olympian. Working here has provided me with an amazing opportunity to learn many valuable skills in engineering (using CAD, good researching, etc.) and I am looking forward to learning more in the future! I joined the team to gain more knowledge in robotics and engineering, and to be part of a team with members who are enthusiastic to spread their love for STEM in our community. My experience here has been nothing but positive, and I am excited to be part of a team that shows that with hard work and determination, achieving any goal is possible.'
 const saiBio = 'Hey! My name is Sai. I am a part of the Outreach and Finance team with my role centering around spearheading networking with sponsors, organizing financial accounts, as well as working with Jason and Ajit to formulate innovative methods of fundraising that not only help towards the development of our robot Olympian but also help spark a love of STEM in the community. I joined Potentia to help pave the path for other high schoolers and show them that the limitations placed upon us are not rigid but with a dose of determination and collaboration, malleable.'
 const ajitBio = 'My name is Ajit Sivakumar and I am part of the Outreach and Finance team. I really enjoy working with the other members of the outreach team to create a solid foundation for our project. I wanted to join Potentia to gain experience working with money and people and I am also genuinely interested in the creation of a humanoid robot. I hope to learn more not only in my sub-section, but in all aspects of our project!'
+const raghavBio = 'Hello! My name is Raghav Tirumale and I’m the Hardware and Electronics Lead for Potentia Robotics. I work on designing the electrical systems of our robot and also determine which sensors, motors, microcontrollers, and other hardware components are the most suitable for the project. I’ve done robotics for a while now through organizations like FIRST and KIPR, however this is the first time I have been involved in such an exciting large-scale project! I have enjoyed working with all of our members and I’m excited to see what we can accomplish together as a team. '
 
 class About extends Component {
   render () {
@@ -49,6 +50,7 @@ class About extends Component {
 
         <Tabs>
           <TabList>
+            <Tab>Leadership</Tab>
             <Tab>Programming Subteam</Tab>
             <Tab>Engineering Subteam</Tab>
             <Tab>Outreach Subteam</Tab>
@@ -56,7 +58,7 @@ class About extends Component {
 
           <TabPanel>
             <Container fluid>
-              <h1 id='subteamTitle'>Programming Subteam Members</h1>
+              <h1 id='subteamTitle'>Leadership</h1>
               <Row>
                 <Col sm={{ size: 6, order: 2, offset: 1 }}>
 
@@ -147,7 +149,76 @@ class About extends Component {
                   <p>{ogRamBio}</p>
                 </Col>
               </Row>
+              <Row>
+                <Col sm={{ size: 6, order: 2, offset: 1 }}>
 
+                  <Row>
+
+                    <Col sm={{ size: 6, order: 2, offset: 1 }}>
+                      <h1>Shahzad Sohail</h1>
+                      <h5>Design Lead</h5>
+                    </Col>
+
+                    <Col sm={{ size: 6, order: 2, offset: 1 }}>
+                      <img src={shahzad} alt='Image of Team member' />
+                    </Col>
+
+                  </Row>
+
+                </Col>
+                <Col>
+                  <p>{ShahzadBio}</p>
+                </Col>
+              </Row>
+              <Row>
+                <Col sm={{ size: 6, order: 2, offset: 1 }}>
+
+                  <Row>
+
+                    <Col sm={{ size: 6, order: 2, offset: 1 }}>
+                      <h1>Raghav Tirumale</h1>
+                      <h5>Hardware and Electronics Lead</h5>
+                    </Col>
+
+                    <Col sm={{ size: 6, order: 2, offset: 1 }}>
+                      <img src={raghav} alt='Image of Team member' />
+                    </Col>
+
+                  </Row>
+
+                </Col>
+                <Col>
+                  <p>{raghavBio}</p>
+                </Col>
+              </Row>
+              <Row>
+                <Col sm={{ size: 6, order: 2, offset: 1 }}>
+
+                  <Row>
+
+                    <Col sm={{ size: 6, order: 2, offset: 1 }}>
+                      <h1>Jason Yi</h1>
+                      <h5>Outreach Lead</h5>
+                    </Col>
+
+                    <Col sm={{ size: 6, order: 2, offset: 1 }}>
+                      <img src={jason} alt='Image of Team member' />
+                    </Col>
+
+                  </Row>
+
+                </Col>
+                <Col>
+                  <p>{jasonBio}</p>
+                </Col>
+              </Row>
+
+            </Container>
+          </TabPanel>
+
+          <TabPanel>
+            <Container fluid>
+              <h1 id='subteamTitle'>Programming Subteam Members</h1>
               <Row>
                 <Col sm={{ size: 6, order: 2, offset: 1 }}>
 
