@@ -82,7 +82,7 @@ export default function Home (props) {
               <a href='https://www.linkedin.com/in/potentia-robotics-790582204/' target='_blank' rel='noopener noreferrer' className='fa fa-linkedin' />
               <a href='https://www.youtube.com/channel/UCKzWtwtWSejKt9THR_XlU7Q' target='_blank' rel='noopener noreferrer' className='fa fa-youtube' />
               <a href='https://github.com/PotentiaRobotics' target='_blank' rel='noopener noreferrer' className='fa fa-github' />
-              <a href='#' target='_blank' rel='noopener noreferrer' className='fa fa-instagram' />
+              <a href='https://www.instagram.com/potentiarobotics/' target='_blank' rel='noopener noreferrer' className='fa fa-instagram' />
               <a href='https://www.facebook.com/potentiarobotics/' target='_blank' rel='noopener noreferrer' className='fa fa-facebook' />
             </div>
           )}
