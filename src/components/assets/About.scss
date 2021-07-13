@@ -7,11 +7,18 @@
 
 .backColor {
     background-color: #293241;
-    color:  #3D5A80;
+    color:  #E0FBFC;
 }
 
-.tabColor {
-    color: #C93241;
+.nameStyle {
+    display:inline-block;
+    border-bottom:2px solid#98C1D9;
+    padding-bottom:-1px;
+}
+
+.h2Style {
+    color: #EE6C4D; 
+    padding-top: 4px;
 }
 
 #about-body{
@@ -22,13 +29,13 @@
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
-    color: #3D5A80;
+    color: #E0FBFC;
 }
 
  #container{
    
     margin-bottom: 50px;
-    color: #3D5A80;
+    color: #E0FBFC;
     
 }
 
@@ -38,7 +45,7 @@
 }
 
 #ourDescription{
-    color: #3D5A80;
+    color: #E0FBFC;
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
@@ -48,8 +55,13 @@ img{
     width:100%;
 }
 #subteamTitle{
-    color: #3D5A80;
+    color: #EE6C4D;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+
+.simple-highlight{
+ background-color: #E0FBFC;
+ padding:0.1em 0.2em;
 }

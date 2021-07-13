@@ -77,15 +77,15 @@ class About extends Component {
 
           <TabPanel>
             <Container fluid>
-              <h1 id='subteamTitle'>Leadership</h1>
+              <h1 id='subteamTitle'><span className="simple-highlight">Leadership</span></h1>
               <Row>
                 <Col sm={{ size: 6, order: 2, offset: 1 }}>
 
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Aditya Vasantharao</h1>
-                      <h5>Project Lead</h5>
+                      <h1 className="nameStyle">Aditya Vasantharao</h1>
+                      <h2 className="h2Style">Project Lead</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
