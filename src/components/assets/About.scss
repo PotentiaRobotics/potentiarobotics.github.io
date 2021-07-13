@@ -6,8 +6,22 @@
 }
 
 .backColor {
-    background-color: #293241;
+    background-color: #3D5A80;
     color:  #E0FBFC;
+}
+
+.imgStyle {
+   border: 15px solid #98C1D9;
+   padding: 10px;
+}
+
+.imgStyle2 {
+   border: 5px solid #EE6C4D;
+   padding: 5px;
+}
+
+.backColor2 {
+    background-color: #293241;
 }
 
 .nameStyle {
@@ -62,6 +76,13 @@ img{
 }
 
 .simple-highlight{
+ background-color: #98C1D9;
+ color:#293241;
+ padding:0.1em 0.2em;
+}
+
+.backColor3 {
  background-color: #E0FBFC;
+ color:#3D5A80;
  padding:0.1em 0.2em;
 }

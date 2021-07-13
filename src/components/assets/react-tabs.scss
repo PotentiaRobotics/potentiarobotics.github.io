@@ -2,7 +2,7 @@
   -webkit-tap-highlight-color: transparent;
 
   &__tab-list {
-    border-bottom: 1px solid #98C1D9;
+    border-bottom: 1px solid #293241;
     margin: 0 0 10px;
     padding: 0;
   }
@@ -19,14 +19,15 @@
     background-color:#98C1D9;
 
     &--selected {
-      background: #EE6C4D;
+      background: #293241;
       border-color: #aaa;
-      color: #E0FBFC;
+      color: #98C1D9;
       border-radius: 5px 5px 0 0;
     }
 
     &--disabled {
-      color: #E0FBFC;
+      color: #293241;
+      background-color:#98C1D9;
       cursor: default;
     }
 

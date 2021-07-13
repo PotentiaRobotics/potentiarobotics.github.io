@@ -14,6 +14,7 @@ import kedar from './assets/img/Kedar.PNG'
 import icon from './assets/img/aboutlogo.PNG'
 import raghav from './assets/img/Raghav.PNG'
 import shruti from './assets/img/shruti.png'
+import group from './assets/img/group.png'
 import classnames from 'classnames'
 
 import GroupPhoto from './assets/img/team_picture.png'
@@ -62,12 +63,15 @@ class About extends Component {
     return (
       <body className="backColor">
 
-        <h1 id='title'>About Us</h1>
+        <h1 id='title'><span className="backColor3" >About Us</span></h1>
         <Container fluid id='container'>
-          {/* Put something else here later */}
+          <Row>
+            <Col sm={{ size: 6, order: 2, offset: 1 }}><img className="imgStyle" id = "teamimage" src = {group} alt = "Group Pic"></img></Col>
+            <Col sm={{ size: 6, order: 2, offset: 1 }}><p className="rowColor" id = "ourDescription">Potentia Robotics is the first high school team building a fully-functional humanoid robot. It is run entirely by students from Thomas Jefferson High School for Science and Technology (TJHSST). Our goal is to build Olympian, a 6-foot tall, low-cost bipedal humanoid robot with a human-like dynamically stable gait, limb mobility, and balance capabilities, that can be controlled effectively and efficiently from afar.</p></Col>
+          </Row>
         </Container>
 
-        <Tabs>
+        <Tabs className="backColor2">
           <TabList>
             <Tab>Leadership</Tab>
             <Tab>Programming Subteam</Tab>
@@ -89,7 +93,7 @@ class About extends Component {
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={adi} alt='Image of Team member' />
+                      <img className="imgStyle2" src={adi} alt='Image of Team member' />
                     </Col>
 
                   </Row>
