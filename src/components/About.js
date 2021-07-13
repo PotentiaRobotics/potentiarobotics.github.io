@@ -22,7 +22,7 @@ import './assets/About.scss'
 
 import { Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col, Container } from 'reactstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import 'react-tabs/style/react-tabs.scss';
+import './assets/react-tabs.scss';
 // import {Tabs, Tab} from 'react-bootstrap-tabs';
 
 // Leadership
