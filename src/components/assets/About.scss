@@ -5,15 +5,30 @@
     font-family: Poppins, sans-serif;
 }
 
+.backColor {
+    background-color: #293241;
+    color:  #3D5A80;
+}
+
+.tabColor {
+    color: #C93241;
+}
+
+#about-body{
+    background-color: aqua;
+}
+
 #title{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
+    color: #3D5A80;
 }
 
-#container{
- 
+ #container{
+   
     margin-bottom: 50px;
+    color: #3D5A80;
     
 }
 
@@ -23,6 +38,7 @@
 }
 
 #ourDescription{
+    color: #3D5A80;
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
@@ -32,6 +48,7 @@ img{
     width:100%;
 }
 #subteamTitle{
+    color: #3D5A80;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
