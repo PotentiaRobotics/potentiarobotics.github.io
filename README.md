@@ -8,13 +8,15 @@ Source for [Potentia Robotics' website](https://www.potentiarobotics.com/) built
 
 #### Table of contents
 
+- [website](#website)
+      - [Table of contents](#table-of-contents)
 - [Setup](#setup)
     - [Troubleshooting setup](#troubleshooting-setup)
-- [Running](#running)
 - [Developing](#developing)
     - [Color palette](#color-palette)
     - [Making changes](#making-changes)
-    - [Pushing changes](#pushing-your-changes)
+    - [Running](#running)
+    - [Pushing your changes](#pushing-your-changes)
 - [Available Scripts](#available-scripts)
     - [`yarn start`](#yarn-start)
     - [`yarn test`](#yarn-test)
@@ -39,13 +41,6 @@ If you are getting engine errors when you run ```yarn install``` a simple fix fo
 ```
 yarn install --ignore-engines
 ```
-
-# Running
-After you've set up the project for the first time, simply run:
-```
-yarn start
-```
-And you should see the website load and show up in your browser, at the address ```http://localhost:3000/```. 
 
 # Developing
 There are some things to remember when developing for the website. First: **never push changes directly to the master branch.** This is automatically disallowed for non-owners, but if you try to do this, you will have to port all of your changes over to a different branch, which is a pain that can be easily avoided. You should always start from a new branch, create the changes on that branch, and create a pull request from that branch into master.
@@ -83,6 +78,13 @@ git push --set-upstream origin fix-documentation
 in `package.json`. This is the only way to open up localhost and have it reload with your changes.
 
 Once you are done with your changes you can move onto [the next step](#pushing-your-changes).
+
+### Running
+After you've set up the project for the first time, simply run:
+```
+yarn start
+```
+And you should see the website load and show up in your browser, at the address ```http://localhost:3000/```. 
 
 ### Pushing your changes
 Here are the steps to push your changes:

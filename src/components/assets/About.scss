@@ -5,15 +5,56 @@
     font-family: Poppins, sans-serif;
 }
 
+.padding {
+    padding-left: 7%;
+    padding-right: 12%;
+}
+
+.backColor {
+    background-color: #3D5A80;
+    color:  #E0FBFC;
+}
+
+.imgStyle {
+   border: 15px solid #98C1D9;
+   padding: 10px;
+}
+
+.imgStyle2 {
+   border: 5px solid #EE6C4D;
+   padding: 5px;
+}
+
+.backColor2 {
+    background-color: #293241;
+}
+
+.nameStyle {
+    display:inline-block;
+    border-bottom:2px solid#98C1D9;
+    padding-bottom:-1px;
+}
+
+.h2Style {
+    color: #EE6C4D; 
+    padding-top: 4px;
+}
+
+#about-body{
+    background-color: aqua;
+}
+
 #title{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
+    color: #E0FBFC;
 }
 
-#container{
- 
+ #container{
+   
     margin-bottom: 50px;
+    color: #E0FBFC;
     
 }
 
@@ -23,6 +64,7 @@
 }
 
 #ourDescription{
+    color: #E0FBFC;
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
@@ -32,7 +74,20 @@ img{
     width:100%;
 }
 #subteamTitle{
+    color: #EE6C4D;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
+}
+
+.simple-highlight{
+ background-color: #98C1D9;
+ color:#293241;
+ padding:0.1em 0.2em;
+}
+
+.backColor3 {
+ background-color: #E0FBFC;
+ color:#3D5A80;
+ padding:0.1em 0.2em;
 }
