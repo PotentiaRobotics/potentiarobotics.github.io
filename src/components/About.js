@@ -67,7 +67,7 @@ class About extends Component {
         <Container fluid id='container'>
           <Row>
             <Col sm={{ size: 6, order: 2, offset: 1 }}><img className="imgStyle" id = "teamimage" src = {group} alt = "Group Pic"></img></Col>
-            <Col sm={{ size: 6, order: 2, offset: 1 }}><p className="rowColor" id = "ourDescription">Potentia Robotics is the first high school team building a fully-functional humanoid robot. It is run entirely by students from Thomas Jefferson High School for Science and Technology (TJHSST). Our goal is to build Olympian, a 6-foot tall, low-cost bipedal humanoid robot with a human-like dynamically stable gait, limb mobility, and balance capabilities, that can be controlled effectively and efficiently from afar.</p></Col>
+            <Col sm={{ size: 6, order: 2, offset: 1 }}><h3 className="rowColor" id = "ourDescription">Potentia Robotics is the first high school team building a fully-functional humanoid robot. It is run entirely by students from Thomas Jefferson High School for Science and Technology (TJHSST). Our goal is to build Olympian, a 6-foot tall, low-cost bipedal humanoid robot with a human-like dynamically stable gait, limb mobility, and balance capabilities, that can be controlled effectively and efficiently from afar.</h3></Col>
           </Row>
         </Container>
 
@@ -80,7 +80,7 @@ class About extends Component {
           </TabList>
 
           <TabPanel>
-            <Container fluid>
+            <Container fluid className="padding">
               <h1 id='subteamTitle'><span className="simple-highlight">Leadership</span></h1>
               <Row>
                 <Col sm={{ size: 6, order: 2, offset: 1 }}>
@@ -113,19 +113,19 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Audhav Durai</h1>
-                      <h5>Programming Lead</h5>
+                      <h1 className="nameStyle">Audhav Durai</h1>
+                      <h2 className="h2Style">Programming Lead</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={icon} alt='Image of Team member' />
+                      <img className="imgStyle2" src={icon} alt='Image of Team member' />
                     </Col>
 
                   </Row>
                   {/* </Container> */}
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{audhavBio}</p>
                 </Col>
               </Row>
@@ -136,18 +136,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Eugene</h1>
-                      <h5>Control Systems Lead</h5>
+                      <h1 className="nameStyle">Eugene Choi</h1>
+                      <h2 className="h2Style">Control Systems Lead</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={icon} alt='Image of Team member' />
+                      <img className="imgStyle2" src={icon} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{eugeneBio}</p>
                 </Col>
               </Row>
@@ -157,18 +157,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Ram Reddy</h1>
-                      <h5>Dynamic Balance Lead</h5>
+                      <h1 className="nameStyle">Ram Reddy</h1>
+                      <h2 className="h2Style">Dynamic Balance Lead</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={ram} alt='Image of Team member' />
+                      <img className="imgStyle2" src={ram} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{ogRamBio}</p>
                 </Col>
               </Row>
@@ -178,18 +178,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Shahzad Sohail</h1>
-                      <h5>Design Lead</h5>
+                      <h1 className="nameStyle">Shahzad Sohail</h1>
+                      <h2 className="h2Style">Design Lead</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={shahzad} alt='Image of Team member' />
+                      <img className="imgStyle2" src={shahzad} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{ShahzadBio}</p>
                 </Col>
               </Row>
@@ -199,18 +199,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Raghav Tirumale</h1>
-                      <h5>Hardware and Electronics Lead</h5>
+                      <h1 className="nameStyle">Raghav Tirumale</h1>
+                      <h2 className="h2Style">Hardware and Electronics Lead</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={raghav} alt='Image of Team member' />
+                      <img className="imgStyle2" src={raghav} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{raghavBio}</p>
                 </Col>
               </Row>
@@ -220,18 +220,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Jason Yi</h1>
-                      <h5>Outreach Lead</h5>
+                      <h1 className="nameStyle">Jason Yi</h1>
+                      <h2 className="h2Style">Outreach Lead</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={jason} alt='Image of Team member' />
+                      <img className="imgStyle2" src={jason} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{jasonBio}</p>
                 </Col>
               </Row>
@@ -240,26 +240,26 @@ class About extends Component {
           </TabPanel>
 
           <TabPanel>
-            <Container fluid>
-              <h1 id='subteamTitle'>Programming Subteam Members</h1>
+            <Container fluid className="padding">
+              <h1 id='subteamTitle'><span className="simple-highlight">Programming Subteam Members</span></h1>
               <Row>
                 <Col sm={{ size: 6, order: 2, offset: 1 }}>
 
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Kedar Prasad</h1>
-                      <h5>Software Developer</h5>
+                      <h1 className="nameStyle">Kedar Prasad</h1>
+                      <h2 className="h2Style">Software Developer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={kedar} alt='Image of Team member' />
+                      <img className="imgStyle2" src={kedar} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{kedarBio}</p>
                 </Col>
               </Row>
@@ -270,18 +270,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Ramya Reddy</h1>
-                      <h5>Software Developer</h5>
+                      <h1 className="nameStyle">Ramya Reddy</h1>
+                      <h2 className="h2Style">Software Developer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={icon} alt='Image of Team member' />
+                      <img className="imgStyle2" src={icon} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{ramyaBio}</p>
                 </Col>
               </Row>
@@ -292,18 +292,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>John Kim</h1>
-                      <h5>Software Developer</h5>
+                      <h1 className="nameStyle">John Kim</h1>
+                      <h2 className="h2Style">Software Developer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={icon} alt='Image of Team member' />
+                      <img className="imgStyle2" src={icon} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{johnBio}</p>
                 </Col>
               </Row>
@@ -314,18 +314,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Ryan Park</h1>
-                      <h5>Software Developer</h5>
+                      <h1 className="nameStyle">Ryan Park</h1>
+                      <h2 className="h2Style">Software Developer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={icon} alt='Image of Team member' />
+                      <img className="imgStyle2" src={icon} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{ryanBio}</p>
                 </Col>
               </Row>
@@ -336,18 +336,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Ram Vempati</h1>
-                      <h5>Software Developer</h5>
+                      <h1 className="nameStyle">Ram Vempati</h1>
+                      <h2 className="h2Style">Software Developer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={ramV} alt='Image of Team member' />
+                      <img className="imgStyle2" src={ramV} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{ramBioP}</p>
                 </Col>
               </Row>
@@ -356,8 +356,8 @@ class About extends Component {
           </TabPanel>
 
           <TabPanel>
-            <Container fluid>
-              <h1 id='subteamTitle'>Engineering Subteam Members</h1>
+            <Container fluid className="padding">
+              <h1 id='subteamTitle'><span className="simple-highlight">Engineering Subteam Members</span></h1>
 
               <Row>
                 <Col sm={{ size: 6, order: 2, offset: 1 }}>
@@ -365,18 +365,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Ram Vempati</h1>
-                      <h5>Engineer</h5>
+                      <h1 className="nameStyle">Ram Vempati</h1>
+                      <h2 className="h2Style">Engineer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={ramV} alt='Image of Team member' />
+                      <img className="imgStyle2" src={ramV} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{ramBioE}</p>
                 </Col>
               </Row>
@@ -387,18 +387,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Varsha Athreya</h1>
-                      <h5>Engineer</h5>
+                      <h1 className="nameStyle">Varsha Athreya</h1>
+                      <h2 className="h2Style">Engineer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={icon} alt='Image of Team member' />
+                      <img className="imgStyle2" src={icon} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{varshaBio}</p>
                 </Col>
               </Row>
@@ -409,18 +409,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Aileen Zhao</h1>
-                      <h5>Engineer</h5>
+                      <h1 className="nameStyle">Aileen Zhao</h1>
+                      <h2 className="h2Style">Engineer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={aileen} alt='Image of Team member' />
+                      <img className="imgStyle2" src={aileen} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{aileenBio}</p>
                 </Col>
               </Row>
@@ -431,18 +431,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Mayuka Valluri</h1>
-                      <h5>Engineer</h5>
+                      <h1 className="nameStyle">Mayuka Valluri</h1>
+                      <h2 className="h2Style">Engineer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={mayuka} alt='Image of Team member' />
+                      <img className="imgStyle2" src={mayuka} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{mayukaBio}</p>
                 </Col>
               </Row>
@@ -453,18 +453,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Shruti Shah</h1>
-                      <h5>Engineer</h5>
+                      <h1 className="nameStyle">Shruti Shah</h1>
+                      <h2 className="h2Style">Engineer</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={shruti} alt='Image of Team member' />
+                      <img className="imgStyle2" src={shruti} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{shrutiBio}</p>
                 </Col>
               </Row>
@@ -473,8 +473,8 @@ class About extends Component {
           </TabPanel>
 
           <TabPanel>
-            <Container fluid>
-              <h1 id='subteamTitle'>Outreach Subteam Members</h1>
+            <Container fluid className="padding">
+              <h1 id='subteamTitle'><span className="simple-highlight">Outreach Subteam Members</span></h1>
 
               <Row>
                 <Col sm={{ size: 6, order: 2, offset: 1 }}>
@@ -482,18 +482,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Sai Mattapalli</h1>
-                      <h5>Outreach</h5>
+                      <h1 className="nameStyle">Sai Mattapalli</h1>
+                      <h2 className="h2Style">Outreach</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={sai} alt='Image of Team member' />
+                      <img className="imgStyle2" src={sai} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{saiBio}</p>
                 </Col>
               </Row>
@@ -504,18 +504,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Ajit</h1>
-                      <h5>Outreach</h5>
+                      <h1 className="nameStyle">Ajit Sivakumar</h1>
+                      <h2 className="h2Style">Outreach</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={icon} alt='Image of Team member' />
+                      <img className="imgStyle2" src={icon} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{ajitBio}</p>
                 </Col>
               </Row>
@@ -526,18 +526,18 @@ class About extends Component {
                   <Row>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <h1>Anirudh Mantha</h1>
-                      <h5>Outreach</h5>
+                      <h1 className="nameStyle">Anirudh Mantha</h1>
+                      <h2 className="h2Style">Outreach</h2>
                     </Col>
 
                     <Col sm={{ size: 6, order: 2, offset: 1 }}>
-                      <img src={anirudh} alt='Image of Team member' />
+                      <img className="imgStyle2" src={anirudh} alt='Image of Team member' />
                     </Col>
 
                   </Row>
 
                 </Col>
-                <Col>
+                <Col sm={{ size: 6, order: 0, offset: 0 }}>
                   <p>{anirudhBio}</p>
                 </Col>
               </Row>
