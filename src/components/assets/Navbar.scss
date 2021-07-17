@@ -133,13 +133,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $black;
+    background-color: #293241;
     width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
 
     li {
-      opacity: 0;
+      opacity: 90%; 
     }
   }
 
