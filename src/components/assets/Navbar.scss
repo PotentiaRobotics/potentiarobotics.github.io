@@ -139,7 +139,7 @@ body {
     transition: transform 0.5s ease-in;
 
     li {
-      opacity: 90%; 
+      opacity: 100%; 
     }
   }
 
@@ -171,7 +171,7 @@ body {
   }
 
   to {
-    opacity: 1;
+    opacity: 90%;
     transform: translateX(0px);
   }
 }
